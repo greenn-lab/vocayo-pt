@@ -126,10 +126,8 @@ chrome.runtime.onMessage.addListener((keyword: string, _, response: (json?: any)
 ```
 <a class="text-sm text-right w-[1100px]" href="https://developer.chrome.com/docs/extensions/reference/api/runtime?hl=ko#event-onMessage" target="_blank">공식문서</a>
 
-네이버 사전 API에 요청을 보내고 응답을 받아요.
-<div v-click>⚠️ 비동기 응답을 위해선 이벤트 함수가 <code>return true</code> 를 반환
-<a href="https://developer.chrome.com/docs/extensions/develop/concepts/messaging?hl=ko" target="_blank">[참조]</a>
-</div>
+- <div v-click="1">네이버 사전 API에 요청을 보내고 응답을 받아요.</div>
+- <div v-click="2">⚠️ 비동기 응답을 위해선 이벤트 함수가 <code>return true</code> 를 반환 <a href="https://developer.chrome.com/docs/extensions/develop/concepts/messaging?hl=ko" target="_blank">[참조]</a></div>
 
 
 ---
