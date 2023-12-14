@@ -344,6 +344,16 @@ const openPopup = (() => {
 
 
 ---
+transition: slide-left
+---
+# registration 1
+<img v-click="0" src="https://raw.githubusercontent.com/timbel-net/vocayo/feat-gwang-yang/docs/vocayo-chrome-extension/chrome-ext-1.png" />
+<img v-click="1" src="https://raw.githubusercontent.com/timbel-net/vocayo/feat-gwang-yang/docs/vocayo-chrome-extension/chrome-ext-2.png" />
+
+
+
+
+---
 transition: fade
 ---
 # conclusion
