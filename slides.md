@@ -346,12 +346,24 @@ const openPopup = (() => {
 ---
 transition: slide-left
 ---
-# registration 1
-<img v-click="0" src="https://raw.githubusercontent.com/timbel-net/vocayo/feat-gwang-yang/docs/vocayo-chrome-extension/chrome-ext-1.png" />
-<img v-click="1" src="https://raw.githubusercontent.com/timbel-net/vocayo/feat-gwang-yang/docs/vocayo-chrome-extension/chrome-ext-2.png" />
+<h1 class="absolute top-20">registration</h1>
+
+<img v-click="0" src="https://raw.githubusercontent.com/greenn-lab/vocayo-pt/main/chrome-ext-1.png" class="border-2 absolute top-50 -ml-50 h-[500px]" />
+<img v-click="1" src="https://raw.githubusercontent.com/greenn-lab/vocayo-pt/main/chrome-ext-2.png" class="border-2 absolute top-52 ml-50" />
 
 
+<!--
+개발한 내용은 브라우저의 "확장프로그램 관리" 설정을 통해서 확인 할 수 있는데요.
 
+우선 개발자모드를 켜고,
+패키징하지 않은, 로컬의 개발 중인 폴더를 지정해 주면 확장 프로그램으로 등록 됩니다.
+누구나 자유롭게 쓰거나 판매하려고 하면 크롬 확장프로그램 마켓에 올려야하는,
+유료인 구글개발자 구독 서비스에 등록해야하고, 코드사이닝(Code Signing) 단계를 거쳐서 배포되는 과정이 있는데,
+실제로 거기까지 진행해보진 않았고요.
+
+보시면, 코드를 수정하면 매번 확장프로그램 관리 설정으로 들어와서 리로드 아이콘을 클릭해서 변경 내용을 확인해야 하는데.
+시작할 때 말씀드렸던, "익스텐션 리로더"를 이 때 이용하면 손쉽게 변경사항을 리로드 할 수 있게 됩니다.
+-->
 
 ---
 transition: fade
